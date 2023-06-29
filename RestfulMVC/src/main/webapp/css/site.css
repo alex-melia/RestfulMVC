@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100&family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+#resultscard {
+	width: 80%;
+}
+
+#searchbycard {
+	width: 10%;
+}
+
+#cardscontainer {
+	margin: auto;
+}
+
+#resultsarea {
+	margin: auto;
+	width: 95%;
+	padding: 10px;
+}
+
+#pagination-buttons {
+	display: grid;
+	row-gap: 5px
+}
+
+.card-header {
+	background-color: #84A98C;	
+}
+
+.card-footer {
+	display: flex;
+	justify-content: space-between;	
+}
+
+body {
+	background-image: url("seamless_movie.jpg");
+	font-family: 'Quicksand', sans-serif;
+}
+
+html {
+	background-image: url("seamless_movie.jpg");
+}
